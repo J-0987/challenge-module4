@@ -6,55 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
 
 
     <title>My First Blog</title>
 </head>
 
+<body class="container">
 
-<main>
     <header>
-        <div class="titleHeader">
-            <div class="row toggle">
-                <div class="col">
-                  <p>DARK MODE</p>
-                </div>
-                <label class="switch col">
-                  <input type="checkbox" id="theme-switcher">
-                  <span class="slider round"></span>
-                </label>
-                <div class="col">
-                  <p>LIGHT MODE</p>
-                </div>
-              </div>
-        </div>
-
-
+            <button id="change-theme">Change Theme</button>
     </header>
 
-<body>
+    <main>
 
-    <section class="title-box">
 
-        <h1>My First Blog</h1>
-    </section>
-    <section class="submission-box">
-        <h2>What's on your mind?</h2>
-        <form action="/submit-form" method="POST">
-            <label for="Username">Username:</label>
-            <input type="text" id="Username" Username="Username" required>
+        <section class="title-box">
 
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title" required>
+            <h1>My First Blog</h1>
+        </section>
 
-            <label for="content">Content:</label>
-            <textarea id="content" name="content" rows="4" required></textarea>
+        <section class="submission-box">
+            <h2>What's on your mind?</h2>
+            <form action="/submit-form" method="POST">
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" Username="Username" required>
 
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
 
-<script src="./assets/js/script.js"></script>
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+
+                <input  id="submit-button" type="submit" value="Submit">
+            </form>
+        </section>
+
+        <script src="./assets/js/logic.js"></script>
 </body>
+
+<footer>
+  
+   <a href="https://j-0987.github.io/challenge-02/"target="_blank">Jasmine's Portfolio</a>
+</footer>
 </main>
+
 </html>

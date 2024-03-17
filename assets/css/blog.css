@@ -1,11 +1,27 @@
 header {
-
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding-top: 50px;
+    padding-bottom: 20px; 
+    border: 5px double black;
 }
 
+header h1 {
+    font-size:1.5rem ;
+}
+
+header nav a {
+    float: left;
+    text-decoration: none;
+}
 button {
     cursor: pointer;
     border-radius: 10px;
     border-color: black;
     background-color: #D3D3D3; 
     margin-right: 15px;
+    justify-content: flex-end;
+    
   }

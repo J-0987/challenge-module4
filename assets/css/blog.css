@@ -1,0 +1,11 @@
+header {
+
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #D3D3D3; 
+    margin-right: 15px;
+  }

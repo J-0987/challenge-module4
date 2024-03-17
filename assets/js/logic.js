@@ -1,4 +1,4 @@
-// Access toggle switch HTML element
+// access button to change theme
 const changeTheme= document.querySelector('#change-theme');
 const container = document.querySelector('.container');
 

@@ -8,12 +8,15 @@ header {
     border: 5px double black;
 }
 
+.container {
+  width: 100%;
+}
+
 header h1 {
     font-size:1.5rem ;
 }
 
 header nav a {
-    float: left;
     text-decoration: none;
     padding-right: 10px;
 }

@@ -1,7 +1,7 @@
 # Jasmine's Blog
 
 ## Description
-This is a blog post I created for everyone'e input! I made it using HTML, CSS, and Javascript 
+For this challenge, I created a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle.
 
 ## Deployed Application URL
 * [link1 to deployed page]

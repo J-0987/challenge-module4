@@ -26,3 +26,27 @@ button {
     justify-content: flex-end;
     
   }
+  .blog-title {
+    border: black;
+    width: 100%;
+    border-radius: 5px solid black;
+    color: black;
+  }
+
+  .blog-title h3 {
+    font-size: 2rem;
+  }
+
+  .blog-title p {
+    font-size:1.5rem;
+   padding: 15px;
+  justify-content: left;
+ 
+  }
+
+  .blog-title h6 {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  

@@ -1,6 +1,8 @@
 .submission-box {
     display: flex;
     flex-direction: column;
+    flex-direction: wrap;
+   
 }
 
 .submission-box h2 {

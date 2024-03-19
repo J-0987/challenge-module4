@@ -9,12 +9,6 @@ header {
   border: 5px double black;
 }
 
-.container {
-  width: 100%;
-
-}
-
-/* Good for container */
 main {
   display: flex;
   flex-flow: column wrap;
@@ -33,10 +27,12 @@ main {
   margin-top: 10px;
 }
 
+/* Style for header 3 -title input in blog page */
 .blog-title h3 {
   font-size: 1.5rem;
 }
 
+/* Style for p -content input in blog page */
 .blog-title p {
   font-size: 1rem;
   padding: 15px;
@@ -45,7 +41,7 @@ main {
   margin-bottom: 10px;
 
 }
-
+/* Style for h6 author input in blog page */
 .blog-title h6 {
   font-size: 1rem;
   font-style: italic;

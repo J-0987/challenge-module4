@@ -1,0 +1,17 @@
+.submission-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.submission-box h2 {
+    text-align: center; /* Center the heading */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block; /* Display labels in a block */
+    margin-bottom: 5px;
+}

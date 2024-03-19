@@ -1,68 +1,72 @@
 /* Do all of these need to be here? Trial each liine to see which one actually worked */
 header {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 20px; 
-    border: 5px double black;
-}
-
-.container {
-  width: 100%;
-
-}
-/* Good for container */
-main {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border: 5px double black;
 }
 
- /* Further define:define grow shrink and basis */
-.blog-title {
-flex:1 1 200px;
-}
 header h1 {
-    font-size:1.5rem ;
+  font-size: 1.5rem;
 }
 
 header nav a {
-    text-decoration: none;
-    padding-right: 10px;
+  text-decoration: none;
+  padding-right: 10px;
 }
+
 button {
-    cursor: pointer;
-    border-radius: 10px;
-    border-color: black;
-    background-color: #D3D3D3; 
-    margin-right: 15px;
-    justify-content: flex-end;
-    
-  }
-  .blog-title {
-    border: black;
-    width: 100%;
-    border-radius: 5px solid black;
-    color: black;
-  }
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #D3D3D3;
+  margin-right: 15px;
+  justify-content: flex-end;
 
-  .blog-title h3 {
-    font-size: 2rem;
-  }
+}
 
-  .blog-title p {
-    font-size:1.5rem;
-   padding: 15px;
+main {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 30px;
+
+}
+
+/* For space between each element, use margin. For spacing of the text inside, it would be padding*/
+.blog-title {
+  flex: 1 1 200px;
+  flex-direction: row;
+  border: 1.5px solid black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+/* Style for header 3 -title input in blog page */
+.blog-title h3 {
+  font-size: 1.5rem;
+}
+
+/* Style for p -content input in blog page */
+.blog-title p {
+  font-size: 1rem;
+  padding: 15px;
   justify-content: left;
- 
-  }
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-  .blog-title h6 {
-    font-size: 1rem;
-    font-style: italic;
-  }
+}
+/* Style for h6 author input in blog page */
+.blog-title h6 {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 30px;
+}
 
-  
+
+
+

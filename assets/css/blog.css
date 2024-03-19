@@ -1,3 +1,4 @@
+/* Do all of these need to be here? Trial each liine to see which one actually worked */
 header {
     background-color: whitesmoke;
     display: flex;
@@ -10,8 +11,20 @@ header {
 
 .container {
   width: 100%;
+
+}
+/* Good for container */
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
+ /* Further define:define grow shrink and basis */
+.blog-title {
+flex:1 1 200px;
+}
 header h1 {
     font-size:1.5rem ;
 }

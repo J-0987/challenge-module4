@@ -3,9 +3,6 @@
 ## Description
 For this challenge, I created a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. It isn't the prettiest, but it works. Pretty takes time and experience. I continue to preservere. 
 
-## Deployed Application URL
-* [link1 to deployed page]
-
 
 ## Front end view
 
@@ -22,7 +19,7 @@ For this challenge, I created a two-page website where users will input and view
 
 ![alt text](image-2.png)
 
-### Responsive 
+### Responsive design
 
 ![alt text](image-4.png)
 

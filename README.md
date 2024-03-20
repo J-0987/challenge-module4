@@ -6,6 +6,7 @@ For this challenge, I created a two-page website where users will input and view
 ## Deployed Application URL
 * [link1 to deployed page]
 
+![alt text](image.png)
 [to link image here]]
 
 ## Technologies 

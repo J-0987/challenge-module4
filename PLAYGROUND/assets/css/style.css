@@ -74,7 +74,7 @@ color: #333;
     padding: 20px;
 }
 /* Dark Mode */
-.dark {
+.container dark {
     background-color:#243447;
     height: 100vh;
     color: #bebebe
@@ -83,7 +83,7 @@ color: #333;
 
 
 /* Light Mode */
-.light {
+.container light {
     background-color: #f0ead6;
     color: black;
     height: 100vh;

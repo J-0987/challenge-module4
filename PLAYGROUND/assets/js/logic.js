@@ -16,23 +16,15 @@ changeTheme.addEventListener('click', function () {
   if (mode === 'light') {
     mode = 'dark';
     container.setAttribute('class', 'dark');
-    header.classList.remove('header-light');
-    header.classList.add('header-dark');
-    headerTag.classList.remove('header-light');
-    headerTag.classList.add('header-dark');
   }
   // If mode is light, apply dark background
   else {
     mode = 'light';
     container.setAttribute('class', 'light');
-    header.classList.remove('header-dark');
-    header.classList.add('header-light');
-    headerTag.classList.remove('header-dark');
-    headerTag.classList.add('header-light');
-
   }
 });
 
+// Event listener for data submitted in form
 formMainPage.addEventListener('submit', function (event) {
   event.preventDefault();
   const submitData = {
@@ -41,6 +33,7 @@ formMainPage.addEventListener('submit', function (event) {
     content: document.getElementById('content').value,
   }
 
+  
   let logEntry = JSON.parse(localStorage.getItem('logData')) || []
 
   //Method 2 to alert user. if statement for each field. Method 1 is adding "required" to each line in HTML form. Both work.
@@ -57,6 +50,8 @@ formMainPage.addEventListener('submit', function (event) {
     alert ("Content field cannot be empty!");
     return false; 
   }
+
+  //Storing information in localStorage
 
   logEntry.push(submitData);
   localStorage.setItem("logData", JSON.stringify(logEntry));

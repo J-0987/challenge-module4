@@ -1,7 +1,7 @@
 # Jasmine's Blog
 
 ## Description
-For this challenge, I created a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle.
+For this challenge, I created a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. It isn't the prettiest, but it works. Pretty takes time and experience. I continue to preservere. 
 
 ## Deployed Application URL
 * [link1 to deployed page]
@@ -9,13 +9,23 @@ For this challenge, I created a two-page website where users will input and view
 
 ## Front end view
 
+
 ### Main page with submit form, light theme
+
 ![alt text](image.png)
 
 ### Main page with submit form, dark theme
-![alt text](image-1.png)
 
-### B
+![alt text](image-3.png)
+
+### Redirect to blog, input display
+
+![alt text](image-2.png)
+
+### Responsive 
+
+![alt text](image-4.png)
+
 
 ## Technologies 
 * HTML

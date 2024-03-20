@@ -6,8 +6,16 @@ For this challenge, I created a two-page website where users will input and view
 ## Deployed Application URL
 * [link1 to deployed page]
 
+
+## Front end view
+
+### Main page with submit form, light theme
 ![alt text](image.png)
-[to link image here]]
+
+### Main page with submit form, dark theme
+![alt text](image-1.png)
+
+### B
 
 ## Technologies 
 * HTML
